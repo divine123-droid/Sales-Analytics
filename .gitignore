@@ -1,31 +1,39 @@
-## Ignore Visual Studio SSDT sqlproj specific temporary files, build results, etc
-## 
-##
-## Get latest from https://github.com/github/gitignore/blob/master/SSDT-sqlproj.gitignore
-# Build output
-bin/
-obj/
+# OS files
+.DS_Store
+Thumbs.db
 
-# DACPAC files
-*.dacpac
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.ipynb_checkpoints/
 
-# Publish profiles (optional, if environment-specific)
-*.publish.xml
+# VSCode
+.vscode/
 
-# SQL Server debug files
-*.dbmdl
-*.sqlcmdvars
+# Data files (optional - remove lines below if you want to keep these in Git)
+*.csv
+*.xlsx
+*.zip
+*.sql
 
-# Visual Studio settings
-.vs/
+# Videos
+*.mp4
+# 📊 Sales Analytics Project
 
-# User-specific files
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
+This repository contains a comprehensive sales analysis project using real-world Northwind data. It includes:
 
-# Backup files
-*.bak
-*.log
+- 🗃️ CSV and SQL data files
+- 📈 PowerPoint report
+- 📄 PDF summaries
+- 📊 Excel dashboards
+- 🎥 Explanatory video (mp4)
+
+## 🔧 Tools & Technologies
+- Python (pandas, seaborn, matplotlib)
+- Excel
+- SQL
+- PowerPoint
+
+## 🗂️ Folder Structure
 
